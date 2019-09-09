@@ -4,6 +4,13 @@
 
     4 characters = objects containing properties of healthpoints HP, attackpower AP, counterattackpower CAP,
     */
+   let player = new Object;
+   let computer = new Object;
+
+   let characters = [{name:"Luke", hp:"", ap:"", cap:""}, 
+   {name:"Vader", hp:"", ap:"", cap:""}, 
+   {name:"Han", hp:"", ap:"", cap:""}, 
+   {name:"Boba Fett", hp:"", ap:"", cap:""}]
 
 
 // NEEDED FUNCTIONS================

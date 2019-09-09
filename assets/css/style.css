@@ -1,0 +1,9 @@
+/*=============Images===================*/
+.lukeimg {
+    height: 150px;
+    width:  150px;
+}
+body {
+    background-image: url("https://wallpapertag.com/wallpaper/full/0/4/b/156477-full-size-4k-star-wars-wallpaper-3840x2160.jpg"); 
+    background-size: cover;
+}

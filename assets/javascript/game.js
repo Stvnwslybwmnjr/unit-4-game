@@ -7,10 +7,10 @@
    let player = new Object;
    let computer = new Object;
 
-   let characters = [{name:"Luke", hp:"", ap:"", cap:""}, 
-   {name:"Vader", hp:"", ap:"", cap:""}, 
-   {name:"Han", hp:"", ap:"", cap:""}, 
-   {name:"Boba Fett", hp:"", ap:"", cap:""}]
+   let characters = [{name:"Luke", hp:120, ap:8, cap:10}, 
+   {name:"Vader", hp:100, ap:15, cap:5}, 
+   {name:"Han", hp:150, ap:5, cap:20}, 
+   {name:"Boba Fett", hp:180, ap:2, cap:25}]
 
 
 // NEEDED FUNCTIONS================

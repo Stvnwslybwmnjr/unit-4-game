@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Star Wars Battle Button</title>
@@ -16,11 +17,27 @@
                           [ATTACK BUTTON]
                    ===Bottom Row Current Opponent===   
     -->
-<button id="luke" name="Luke">Luke <br> <img class="lukeimg" src="./assets/images/Luke-Skywalker.jpg"> <br> <p id="hp">0</p></button>
-<button id="vader" name="Vader">Vader <br> <img src="./assets/images/vader.jpg"><br> <p id="hp">0</p></button>
-<button id="han" name="Han">Han <br> <img src="./assets/images/han_solo-150x150.jpg"><br> <p id="hp">0</p></button>
-<button id="boba fett" name="Boba Fett" >Boba Fett <br> <img src="./assets/images/fett.jpg"><br> <p id="hp">0</p></button>
+    <div id="goodguy">
+    </div>
+    <div id="guys">
+    <!-- <button id="luke" class="guys" name="Luke">Luke <br> <img class="lukeimg" src="./assets/images/Luke-Skywalker.jpg"> <br> <p id="hp">0</p></button>
+    <button id="vader" class="guys" name="Vader">Vader <br> <img src="./assets/images/vader.jpg"><br> <p id="hp">0</p></button>
+    <button id="han" class="guys" name="Han">Han <br> <img src="./assets/images/han_solo-150x150.jpg"><br> <p id="hp">0</p></button>
+    <button id="boba fett" class="guys" name="Boba Fett" >Boba Fett <br> <img src="./assets/images/fett.jpg"><br> <p id="hp">0</p></button> -->
+    
+</div>
+<button id="attack">attack</button>
+<div id="badguy"></div>
+<div id="display">
+    <div id="playername">name</div>
+    <div id="playerhp">0</div>
+    <div id="playerap">0</div>
+    <br>
+    <div id="computername">0</div>
+    <div id="computerhp">0</div>
+    <div id="computerap">0</div>
+</div>
 
-<script src="./assets/javascript/game.js"></script>
+<script src="./assets/javascript/game2.js"></script>
 </body>
 </html>
